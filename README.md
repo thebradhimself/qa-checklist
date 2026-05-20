@@ -30,7 +30,7 @@ branch.
 In Claude Code:
 
 ```text
-/plugin marketplace add bradhintze/qa-checklist
+/plugin marketplace add thebradhimself/qa-checklist
 /plugin install qa-checklist@qa-checklist
 ```
 
@@ -40,7 +40,7 @@ installs the `qa-checklist` plugin from that marketplace.
 ### From a local clone
 
 ```bash
-git clone https://github.com/bradhintze/qa-checklist.git
+git clone https://github.com/thebradhimself/qa-checklist.git
 ```
 
 Then in Claude Code:
@@ -113,7 +113,7 @@ qa-checklist/
 
 This repo is structured so it can be consumed two ways:
 
-1. As a standalone marketplace (`/plugin marketplace add bradhintze/qa-checklist`),
+1. As a standalone marketplace (`/plugin marketplace add thebradhimself/qa-checklist`),
    thanks to `.claude-plugin/marketplace.json` at the repo root.
 2. As a plugin source referenced from another marketplace catalog.
 
