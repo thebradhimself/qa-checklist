@@ -1,7 +1,7 @@
 ---
-description: Generate a branch-aware interactive QA checklist (HTML) from the current git diff and optional PR metadata.
-argument-hint: [--base main] [--pr] [--output tmp/qa-checklist.html] [--focus ui|backend|regression|security|perf|a11y] [--include-low-priority] [--json] [--summary]
-allowed-tools: Bash(git:*), Bash(gh:*), Bash(mkdir:*), Bash(ls:*), Bash(test:*), Bash(date:*), Bash(rg:*), Read, Write, Glob, Grep
+description: "Generate a branch-aware interactive QA checklist (HTML) from the current git diff and optional PR metadata."
+argument-hint: "[--base main] [--pr] [--output tmp/qa-checklist.html] [--focus ui|backend|regression|security|perf|a11y] [--include-low-priority] [--json] [--summary]"
+allowed-tools: "Bash(git:*), Bash(gh:*), Bash(mkdir:*), Bash(ls:*), Bash(test:*), Bash(date:*), Bash(rg:*), Read, Write, Glob, Grep"
 ---
 
 # /qa-checklist — Branch-aware QA checklist
