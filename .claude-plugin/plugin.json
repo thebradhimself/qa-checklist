@@ -1,13 +1,13 @@
 {
   "name": "qa-checklist",
   "description": "Generate a branch-aware interactive QA checklist (HTML) from the current git diff and optional PR metadata.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Brad Hintze",
-    "url": "https://github.com/bradhintze"
+    "url": "https://github.com/thebradhimself"
   },
-  "homepage": "https://github.com/bradhintze/qa-checklist",
-  "repository": "https://github.com/bradhintze/qa-checklist",
+  "homepage": "https://github.com/thebradhimself/qa-checklist",
+  "repository": "https://github.com/thebradhimself/qa-checklist",
   "license": "MIT",
   "keywords": ["qa", "testing", "checklist", "pull-request", "git-diff", "review"]
 }

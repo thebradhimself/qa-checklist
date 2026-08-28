@@ -2,15 +2,18 @@
   "name": "qa-checklist",
   "owner": {
     "name": "Brad Hintze",
-    "url": "https://github.com/bradhintze"
+    "url": "https://github.com/thebradhimself"
   },
   "plugins": [
     {
       "name": "qa-checklist",
       "source": ".",
       "description": "Generate a branch-aware interactive QA checklist (HTML) from the current git diff and optional PR metadata.",
-      "version": "0.1.0",
-      "author": "Brad Hintze",
+      "version": "0.1.1",
+      "author": {
+        "name": "Brad Hintze",
+        "url": "https://github.com/thebradhimself"
+      },
       "license": "MIT",
       "keywords": ["qa", "testing", "checklist", "pull-request", "git-diff", "review"]
     }
